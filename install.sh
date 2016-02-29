@@ -14,4 +14,5 @@ wget $ES_URL
 dpkg -i elasticsearch-2.2.0.deb
 
 #Start ES automatically
-update-rc.d elasticsearch defaults
+update-rc.d elasticsearch defaults 95 10
+
