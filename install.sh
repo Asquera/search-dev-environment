@@ -19,3 +19,5 @@ dpkg -i elasticsearch-2.2.0.deb
 #Start ES automatically
 update-rc.d elasticsearch defaults 95 10
 
+/usr/share/elasticsearch/bin/plugin install analysis-icu
+/usr/share/elasticsearch/bin/plugin install lmenezes/elasticsearch-kopf
