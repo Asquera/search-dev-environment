@@ -5,7 +5,7 @@ ES_URL="https://download.elasticsearch.org/elasticsearch/release/org/elasticsear
 apt-get update
 
 #Install Java
-apt-get install -y openjdk-7-jre
+apt-get install -y openjdk-7-jre vim git
 
 #Download ES .deb package
 wget $ES_URL
