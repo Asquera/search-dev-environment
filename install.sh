@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+#Set locale to en_US.utf8. Needed for successful unicode handling
+update-locale LC_ALL=en_US.utf8
+
 ES_URL="https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/deb/elasticsearch/2.2.0/elasticsearch-2.2.0.deb"
 
 add-apt-repository ppa:brightbox/ruby-ng
